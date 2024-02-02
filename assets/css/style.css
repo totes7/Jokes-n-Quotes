@@ -1,0 +1,51 @@
+body {
+    font-family: monospace;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+h2 {
+    font-family:monospace;
+    font-size: 30px;
+    text-align:justify;
+}
+
+#categoryGrid {
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+    "history api1"
+    "history api2";
+    gap: 5px;
+    overflow: hidden;
+    
+}
+
+#history {
+    grid-area: history;
+}
+
+#API-1{
+    grid-area: api1;
+}
+#API-2 {
+    grid-area: api2;
+}
+
+.categoryGridArea {
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 2px solid black;
+    text-align: center; /* Center text */
+    padding: 100px; /* Add padding for better visibility */
+}
+
