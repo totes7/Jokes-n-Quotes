@@ -1,51 +1,47 @@
+/* General */
+
 body {
-    font-family: monospace;
-    margin: 20px;
+  font-family: monospace;
 }
 
 h1 {
-    font-size: 48px;
-    text-align: center;
+  font-size: 48px;
+  text-align: center;
+  margin: 30px 0;
 }
 
 h2 {
-    font-family:monospace;
+  font-family: monospace;
+  font-size: 30px;
+  text-align: center;
+}
+
+a {
+    color: whitesmoke;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: rgb(6, 175, 187);
+}
+
+.navbar-brand {
     font-size: 30px;
-    text-align:justify;
+    padding-left: 20px;
 }
 
-#categoryGrid {
-    display: grid;
-    margin: auto;
-    grid-template-columns: 1fr 2fr;
-    grid-template-areas: 
-    "history api1"
-    "history api2";
-    gap: 5px;
-    overflow: hidden;
-    
+.nav-item {
+    font-size: 16px;
+    padding-right: 20px;
 }
 
-#history {
-    grid-area: history;
+.navbar-collapse {
+    justify-content: end;
 }
 
-#API-1{
-    grid-area: api1;
-}
-#API-2 {
-    grid-area: api2;
-}
+/* Buttons section */
 
-.categoryGridArea {
-    overflow: hidden;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 5px;
-    cursor: pointer;
-    border-radius: 15px;
-    border: 2px solid black;
-    text-align: center; /* Center text */
-    padding: 100px; /* Add padding for better visibility */
+.card {
+    height: 300px;
 }
-
