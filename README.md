@@ -1,3 +1,4 @@
 # Joke & Inspirational Quotes Generator Dashboard
 
-A web application that dynamically fetches and displays random quotes from an API. Users can click a button to get a new quote, providing an inspiring or thought-provoking message each time.
+## Overview
+This project is a simple web dashboard that allows users to generate jokes and quotes using external APIs. It features a clean and responsive design, making it easy for users to interact with the application.
