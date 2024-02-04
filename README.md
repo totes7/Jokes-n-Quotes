@@ -6,7 +6,7 @@ This project is a simple web dashboard that allows users to generate jokes and I
 ## Table of Contents
 - [Features](#features)
 - [Screenshots](#screenshots)
-- [demo](#usage)
+- [Demo](#demo)
 - [Technologies](#technologies)
 - [Installation](#installation)
 - [Usage](#usage)
