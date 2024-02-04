@@ -9,8 +9,6 @@
     <title>Postcard Page</title>
 </head>
 
-
-
 <body class="vh-100 mb-4">
     <header>
         <nav class="navbar navbar-expand-lg">
@@ -25,45 +23,68 @@
                     <a class="nav-link" href="https://github.com/totes7/Project-1-name-to-be-decided-" target="_blank">GitHub</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">JokesAPI</a>
+                    <a class="nav-link" href="#" id="btn-jokes">JokesAPI</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="" data-bs-toggle="modal" data-bs-target="#">QuotesAPI</a>
+                    <a class="nav-link" href="#" id="btn-quotes" data-toggle="modal" data-target="#quotesModal">QuotesAPI</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
     </header>
-    <h1>
-        Group 8 API Project 1
-    </h1>
 
-    <div class="container-fluid h-100 text-center">
-        <div class="row h-100 align-items-start">
-            <div class="col-lg-4">
-                <div class="card" id="jokes">
-                    <div class="card-body">
-                        <h5 class="card-title"> Generate Joke</h5>
-                        <button type="button" class="btn btn-primary btn-sm" id="btn-jokes">Small button</button>
-                    </div>
-                </div>  
-                <div class="card" id="quotes">
-                    <div class="card-body">
-                        <h5 class="card-title"> Generate Quote</h5>
-                        <button type="button" class="btn btn-secondary btn-sm" id="btn-quotes">Small button</button>
-                    </div>
-                </div>  
-            </div>
-            <div class="col-lg-8">
-                <h2>
-                    Response
-                </h2>
-                <p class="generated-quote">
+   <!-- Your existing HTML code -->
 
-                </p>
-            </div>
+<div class="container-fluid h-100 text-center">
+  <div class="row h-100 align-items-start">
+      <div class="col-lg-4">
+          <div class="card" id="jokes-card">
+              <div class="card-body">
+                  <h5 class="card-title"> Generate Joke</h5>
+                  <button type="button" class="btn btn-primary btn-sm" id="btn-jokes">Get Joke</button>
+              </div>
+          </div>  
+          <div class="card" id="quotes-card">
+              <div class="card-body">
+                  <h5 class="card-title"> Generate Quote</h5>
+                  <button type="button" class="btn btn-secondary btn-sm" id="btn-quotes" data-toggle="modal" data-target="#quotesModal">Get Quote</button>
+              </div>
+          </div>  
+      </div>
+      <div class="col-lg-8">
+          <h2>
+              Response
+          </h2>
+          <div class="generated-content" id="response-content">
+              <!-- Results will be appended here -->
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Your existing HTML code -->
+
+
+
+    <!-- Quotes Modal -->
+    <div class="modal fade" id="quotesModal" tabindex="-1" role="dialog" aria-labelledby="quotesModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="quotesModalLabel">Quotes API Placeholder</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>This is a placeholder for the Quotes API. You can customize this modal with the actual Quotes API integration.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
