@@ -52,3 +52,11 @@ This project is a simple web dashboard that allows users to generate jokes and I
 
 - JokeAPI: [Link to JokeAPI Documentation](https://v2.jokeapi.dev/docs)
 - Zen Quotes API: [Link to Zen Quotes API](https://zenquotes.io/api)
+
+## Contribution
+
+1. @totes7 Antonio Manno.
+2. @dijahmohammed Khadeejat Mohammed
+3. @Biodunijelu   Abiodun Ijelu.
+4. @Fatma   Fatma.
+
