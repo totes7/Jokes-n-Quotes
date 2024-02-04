@@ -6,7 +6,7 @@ This project is a simple web dashboard that allows users to generate jokes and I
 ## Table of Contents
 - [Features](#features)
 - [Screenshots](#screenshots)
-- [Usage](#usage)
+- [demo](#usage)
 - [APIs Used](#apis_used)
 - [Technologies ](#technologies )
 
@@ -26,4 +26,8 @@ This project is a simple web dashboard that allows users to generate jokes and I
 (https://github.com/biodunijelu/Project-1-name-to-be-decided-/blob/main/assets/image/mockup_design.png)
 
 ```
+
+## Demo
+
+
 
