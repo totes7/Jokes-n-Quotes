@@ -1,4 +1,4 @@
-// script.js
+// jokeapi script
 document.getElementById('btn-jokes').addEventListener('click', getJokes);
 
 function getJokes() {
@@ -27,3 +27,38 @@ function getJokes() {
 
   console.log('Button clicked!');
 }
+
+
+// Daily Inspirational Quotes
+
+document.getElementById('btn-quotes').addEventListener('click', getQuotes);
+
+function getQuotes() {
+  fetch('https://zenquotes.io/api/today')
+    .then(response => response.json())
+    .then(data => {
+      const modalBody = document.querySelector('#quotesModal .modal-body');
+      modalBody.innerHTML = ''; // Clear existing content
+
+      // Check if the data contains quotes
+      if (data.length > 0) {
+        // Display each quote in the modal body
+        data.forEach(quote => {
+          modalBody.innerHTML += `
+            <div class="response-card">
+              <p><strong>Quote:</strong> ${quote.q}</p>
+              <p><strong>Author:</strong> ${quote.a}</p>
+            </div>`;
+        });
+      } else {
+        // If no quotes are available
+        modalBody.innerHTML = '<p>No quotes available at the moment.</p>';
+      }
+    })
+    .catch(error => {
+      console.error('Error fetching quotes:', error.message);
+    });
+
+  console.log('Get Quotes button clicked!');
+}
+
