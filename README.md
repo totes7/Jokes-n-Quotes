@@ -7,7 +7,8 @@ This project is a simple web dashboard that allows users to generate jokes and I
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [demo](#usage)
-- [Technologies](#technologies )
+- [Technologies](#technologies)
+- [Installation](#installation)
 - [Contributing](#contributing)
 - [Deployment](#deployment)
 - [License](#license)
@@ -29,8 +30,14 @@ This project is a simple web dashboard that allows users to generate jokes and I
 
 
 ## Technologies Used
+
 - HTML
 - CSS (Bootstrap)
 - JavaScript
+
+## Installation
+
+1. Clone the repository: `git clone https://github.com/totes7/Project-1-name-to-be-decided-`
+2. Open the project folder: `cd Project-1-name-to-be-decided-`
 
 
