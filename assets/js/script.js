@@ -31,10 +31,15 @@ function getJokes() {
 
 // Daily Inspirational Quotes
 
-document.getElementById('btn-quotes').addEventListener('click', getQuotes);
+// document.getElementById('btn-quotes').addEventListener('click', getQuotes);
+
+document.getElementById('btn-quotes-2').addEventListener('click', getQuotes);
 
 function getQuotes() {
-  fetch('https://zenquotes.io/api/today')
+    const apiUrl = 'https://zenquotes.io/api/today';
+    fetch(`https://cors-anywhere.herokuapp.com/${apiUrl}`, {
+        method: 'GET',
+      })
     .then(response => response.json())
     .then(data => {
       const modalBody = document.querySelector('#quotesModal .modal-body');
@@ -58,7 +63,7 @@ function getQuotes() {
     .catch(error => {
       console.error('Error fetching quotes:', error.message);
     });
-
+   console.log('Raw response:', response);
   console.log('Get Quotes button clicked!');
 }
 

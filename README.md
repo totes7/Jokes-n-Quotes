@@ -1,3 +1,67 @@
 # Joke & Inspirational Quotes Generator Dashboard
 
-A web application that dynamically fetches and displays random quotes from an API. Users can click a button to get a new quote, providing an inspiring or thought-provoking message each time.
+## Overview
+This project is a simple web dashboard that allows users to generate jokes and Inspirational quotes using external APIs. It features a clean and responsive design, making it easy for users to interact with the application.
+
+## Table of Contents
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [demo](#usage)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [APIs](#apis)
+- [Contributing](#contributing)
+- [Issues](#issues)
+- [Deployment](#deployment)
+- [License](#license)
+
+
+## Features
+- Generate Jokes: Click the "Get Joke" button to fetch and display jokes using the JokeAPI.
+- Generate Inspirational Quotes: Click the "Get Quote" button to fetch and display daily inspirational quotes using the Zen Quotes API.
+
+## Screenshots
+
+```md
+
+(https://github.com/biodunijelu/Project-1-name-to-be-decided-/blob/main/assets/image/mockup_design.png)
+
+```
+
+## Demo
+
+
+## Technologies Used
+
+- HTML
+- CSS (Bootstrap)
+- JavaScript
+
+## Installation
+
+1. Clone the repository: `git clone https://github.com/totes7/Project-1-name-to-be-decided-`
+2. Open the project folder: `cd Project-1-name-to-be-decided-`
+
+## Usage
+
+1. Open `index.html` in your preferred web browser.
+2. Click the "JokesAPI" button to generate jokes.
+3. Click the "QuotesAPI" button to generate inspirational quotes.
+
+## APIs Used
+
+- JokeAPI: [Link to JokeAPI Documentation](https://v2.jokeapi.dev/docs)
+- Zen Quotes API: [Link to Zen Quotes API](https://zenquotes.io/api)
+
+## Contribution
+
+1. @totes7 Antonio Manno.
+2. @dijahmohammed Khadeejat Mohammed
+3. @Biodunijelu   Abiodun Ijelu.
+4. @Fatma   Fatma.
+
+## Issues and Bugs
+If you encounter any issues or bugs, please [create an issue](https://github.com/totes7/Project-1-name-to-be-decided-/issues) on the GitHub repository.
+
+
