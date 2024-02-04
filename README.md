@@ -5,12 +5,11 @@ This project is a simple web dashboard that allows users to generate jokes and I
 
 ## Table of Contents
 - [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
+- [Screenshots](#screenshots)
 - [Usage](#usage)
 - [APIs Used](#apis_used)
 - [Technologies ](#technologies )
-- [Screenshots](#screenshots)
+
 - [Contributing](#contributing)
 - [Deployment](#deployment)
 - [License](#license)
@@ -19,3 +18,12 @@ This project is a simple web dashboard that allows users to generate jokes and I
 ## Features
 - Generate Jokes: Click the "Get Joke" button to fetch and display jokes using the JokeAPI.
 - Generate Inspirational Quotes: Click the "Get Quote" button to fetch and display daily inspirational quotes using the Zen Quotes API.
+
+## Screenshots
+
+```md
+
+(https://github.com/biodunijelu/Project-1-name-to-be-decided-/blob/main/assets/image/mockup_design.png)
+
+```
+
