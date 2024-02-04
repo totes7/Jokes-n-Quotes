@@ -9,9 +9,16 @@ function getJokes() {
       responseContent.innerHTML = ''; // Clear existing content
 
       if (data.type === 'twopart') {
-        responseContent.innerHTML += `<p><strong>Setup:</strong> ${data.setup}</p><p><strong>Delivery:</strong> ${data.delivery}</p>`;
+        responseContent.innerHTML += `
+          <div class="response-card">
+            <p><strong>Setup:</strong> ${data.setup}</p>
+            <p><strong>Delivery:</strong> ${data.delivery}</p>
+          </div>`;
       } else {
-        responseContent.innerHTML += `<p>Joke: ${data.joke}</p>`;
+        responseContent.innerHTML += `
+          <div class="response-card">
+            <p><strong>Joke:</strong> ${data.joke}</p>
+          </div>`;
       }
     })
     .catch(error => {
@@ -20,4 +27,3 @@ function getJokes() {
 
   console.log('Button clicked!');
 }
-
