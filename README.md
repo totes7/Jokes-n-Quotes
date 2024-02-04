@@ -12,6 +12,7 @@ This project is a simple web dashboard that allows users to generate jokes and I
 - [Usage](#usage)
 - [APIs](#apis)
 - [Contributing](#contributing)
+- [Issues](#issues)
 - [Deployment](#deployment)
 - [License](#license)
 
@@ -59,4 +60,8 @@ This project is a simple web dashboard that allows users to generate jokes and I
 2. @dijahmohammed Khadeejat Mohammed
 3. @Biodunijelu   Abiodun Ijelu.
 4. @Fatma   Fatma.
+
+## Issues and Bugs
+If you encounter any issues or bugs, please [create an issue](https://github.com/totes7/Project-1-name-to-be-decided-/issues) on the GitHub repository.
+
 
