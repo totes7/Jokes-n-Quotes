@@ -7,9 +7,7 @@ This project is a simple web dashboard that allows users to generate jokes and I
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [demo](#usage)
-- [APIs Used](#apis_used)
-- [Technologies ](#technologies )
-
+- [Technologies](#technologies )
 - [Contributing](#contributing)
 - [Deployment](#deployment)
 - [License](#license)
@@ -29,5 +27,10 @@ This project is a simple web dashboard that allows users to generate jokes and I
 
 ## Demo
 
+
+## Technologies Used
+- HTML
+- CSS (Bootstrap)
+- JavaScript
 
 
