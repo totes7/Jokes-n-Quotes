@@ -32,7 +32,7 @@ This project is a simple web dashboard that allows users to generate jokes and I
 ## Demo
 
 
-## Technologies Used
+## Technologies
 
 - HTML
 - CSS (Bootstrap)
@@ -49,7 +49,7 @@ This project is a simple web dashboard that allows users to generate jokes and I
 2. Click the "JokesAPI" button to generate jokes.
 3. Click the "QuotesAPI" button to generate inspirational quotes.
 
-## APIs Used
+## APIs
 
 - JokeAPI: [Link to JokeAPI Documentation](https://v2.jokeapi.dev/docs)
 - Zen Quotes API: [Link to Zen Quotes API](https://zenquotes.io/api)
