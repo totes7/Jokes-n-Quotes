@@ -1,5 +1,4 @@
 // script.js
-// script.js
 document.getElementById('btn-jokes').addEventListener('click', getJokes);
 
 function getJokes() {
