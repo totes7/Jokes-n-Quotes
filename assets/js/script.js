@@ -2,7 +2,10 @@
 document.getElementById('btn-jokes').addEventListener('click', getJokes);
 
 function getJokes() {
-  fetch('https://v2.jokeapi.dev/joke/Any/3') // Fetch 3 jokes for example
+  const corsProxyUrl = 'https://cors-anywhere.herokuapp.com/';
+  const apiUrl = 'https://v2.jokeapi.dev/joke/Any/3';
+
+  fetch(corsProxyUrl + apiUrl)
     .then(response => response.json())
     .then(data => {
       const responseContent = document.getElementById('response-content');
@@ -19,4 +22,5 @@ function getJokes() {
     .catch(error => {
       console.error('Error fetching jokes:', error.message);
     });
+  console.log('Button clicked!');
 }
