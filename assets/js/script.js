@@ -2,15 +2,12 @@
 document.getElementById('btn-jokes').addEventListener('click', getJokes);
 
 function getJokes() {
-  const corsProxyUrl = 'https://cors-anywhere.herokuapp.com/';
-  const apiUrl = 'https://v2.jokeapi.dev/joke/Any/3';
-
-  fetch(corsProxyUrl + apiUrl)
+  fetch('https://v2.jokeapi.dev/joke/Any/3') // Fetch 3 jokes for example
     .then(response => response.json())
     .then(data => {
       const responseContent = document.getElementById('response-content');
       responseContent.innerHTML = ''; // Clear existing content
-
+      
       data.jokes.forEach(joke => {
         if (joke.type === 'twopart') {
           responseContent.innerHTML += `<p><strong>Setup:</strong> ${joke.setup}</p><p><strong>Delivery:</strong> ${joke.delivery}</p>`;
