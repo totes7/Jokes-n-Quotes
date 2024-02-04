@@ -9,6 +9,7 @@ This project is a simple web dashboard that allows users to generate jokes and I
 - [demo](#usage)
 - [Technologies](#technologies)
 - [Installation](#installation)
+- [Usage](#usage)
 - [Contributing](#contributing)
 - [Deployment](#deployment)
 - [License](#license)
@@ -39,5 +40,11 @@ This project is a simple web dashboard that allows users to generate jokes and I
 
 1. Clone the repository: `git clone https://github.com/totes7/Project-1-name-to-be-decided-`
 2. Open the project folder: `cd Project-1-name-to-be-decided-`
+
+## Usage
+
+1. Open `index.html` in your preferred web browser.
+2. Click the "JokesAPI" button to generate jokes.
+3. Click the "QuotesAPI" button to generate inspirational quotes.
 
 
