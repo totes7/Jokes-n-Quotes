@@ -6,7 +6,6 @@ This project is a simple web dashboard that allows users to generate jokes and I
 ## Table of Contents
 - [Features](#features)
 - [Screenshots](#screenshots)
-- [demo](#usage)
 - [Technologies](#technologies)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -23,13 +22,15 @@ This project is a simple web dashboard that allows users to generate jokes and I
 
 ## Screenshots
 
-```md
+* Here is a screenshot of the webpage displaying a joke.
+* The API response is displayed in the main section of the page.
 
-(https://github.com/biodunijelu/Project-1-name-to-be-decided-/blob/main/assets/image/mockup_design.png)
+![Joke](./assets/images/screenshot-1.png)
 
-```
+* Here is a screenshot of the webpage displaying a quote.
+* The API response is displayed in a modal.
 
-## Demo
+![Quote](./assets/images/screenshot-2.png)
 
 
 ## Technologies
@@ -51,8 +52,8 @@ This project is a simple web dashboard that allows users to generate jokes and I
 
 ## APIs
 
-- JokeAPI: [Link to JokeAPI Documentation](https://v2.jokeapi.dev/docs)
-- Zen Quotes API: [Link to Zen Quotes API](https://zenquotes.io/api)
+- JokeAPI: [Link to JokeAPI Documentation](https://v2.jokeapi.dev/)
+- Zen Quotes API: [Link to Zen Quotes API](https://docs.zenquotes.io/zenquotes-documentation/)
 
 ## Contribution
 
@@ -64,4 +65,14 @@ This project is a simple web dashboard that allows users to generate jokes and I
 ## Issues and Bugs
 If you encounter any issues or bugs, please [create an issue](https://github.com/totes7/Project-1-name-to-be-decided-/issues) on the GitHub repository.
 
+## Deployment
 
+* The site was deployed to GitHub Pages. The steps required are as follows:
+    * From the GitHub main repository, navigate to Settings page.
+    * Locate the Pages section.
+    * Here, select Main Branch from the drop-down menu.
+    * Once selected, GitHub will generate a link to the complete website.
+    
+## License
+
+N/A
