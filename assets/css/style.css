@@ -20,6 +20,10 @@ a {
     color: whitesmoke;
 }
 
+#main {
+  margin-top: 30px;
+}
+
 /* Navbar */
 
 .navbar {
@@ -42,17 +46,16 @@ a {
 
 /* Buttons section */
 
-/* .card {
-    height: 300px;
-} */
+#jokes-card, #quotes-card{
+  margin-top: 5px;
+}
 
-/* Responce Section */
+/* Response Section */
+
 .generated-content {
   margin-top: 20px;
 }
- #jokes-card, #quotes-card{
-  margin-top: 5px;
- }
+
 .response-card {
   border: 1px solid #ccc;
   border-radius: 8px;
