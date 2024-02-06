@@ -1,5 +1,5 @@
 // jokeapi script
-document.getElementById('btn-jokes').addEventListener('click', getJokes);
+$('#btn-jokes').on('click', getJokes);
 
 function getJokes() {
   fetch('https://v2.jokeapi.dev/joke/Any/3')
@@ -25,15 +25,12 @@ function getJokes() {
       console.error('Error fetching jokes:', error.message);
     });
 
-  console.log('Button clicked!');
 }
 
 
 // Daily Inspirational Quotes
 
-// document.getElementById('btn-quotes').addEventListener('click', getQuotes);
-
-document.getElementById('btn-quotes-2').addEventListener('click', getQuotes);
+$('#btn-quotes-2').on('click', getQuotes);
 
 function getQuotes() {
     const apiUrl = 'https://zenquotes.io/api/today';
@@ -64,7 +61,6 @@ function getQuotes() {
     .catch(error => {
       console.error('Error fetching quotes:', error.message);
     });
-   console.log('Raw response:', response);
-  console.log('Get Quotes button clicked!');
+  
 }
 
