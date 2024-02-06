@@ -40,6 +40,7 @@ function getQuotes() {
     fetch(`https://cors-anywhere.herokuapp.com/${apiUrl}`, {
         method: 'GET',
       })
+    // fetch(apiUrl)
     .then(response => response.json())
     .then(data => {
       const modalBody = document.querySelector('#quotesModal .modal-body');
