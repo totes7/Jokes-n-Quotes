@@ -11,12 +11,16 @@ function getJokes() {
       if (data.type === "twopart") {
         responseContent.innerHTML += `
           <div class="response-card">
+            <h2>Generated Joke</h2>
+            <hr>
             <p><strong>Setup:</strong> ${data.setup}</p>
             <p><strong>Delivery:</strong> ${data.delivery}</p>
           </div>`;
       } else {
         responseContent.innerHTML += `
           <div class="response-card">
+            <h2>Generated Joke</h2>
+            <hr>
             <p><strong>Joke:</strong> ${data.joke}</p>
           </div>`;
       }
@@ -37,7 +41,6 @@ function getQuotes() {
       return response.json();
     })
     .then(function (data) {
-      console.log(data);
       let randomNumber = Math.floor(Math.random() * 15);
       let quote = data[randomNumber]
       let quoteText = quote.text
@@ -48,5 +51,8 @@ function getQuotes() {
       $(".modal-body").html(
         `<div class="response-card"><p><strong>Quote:</strong> ${quoteText}</p><p><strong>Author:</strong> ${authorFinal}</p></div>`
       );
-    });
+    })
+    .catch(function (error) {
+      console.error("Error fetching quotes:", error.message);
+    });;
 }
