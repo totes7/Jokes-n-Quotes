@@ -2,6 +2,7 @@
 
 body {
   font-family: monospace;
+  background-color: azure;
 }
 
 h1 {
@@ -47,13 +48,14 @@ a {
 /* Buttons section */
 
 #jokes-card, #quotes-card{
-  margin-top: 5px;
+  margin-top: 20px;
 }
 
 /* Response Section */
 
 .generated-content {
   margin-top: 20px;
+  background-color: white;
 }
 
 .response-card {
@@ -78,5 +80,5 @@ a {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  margin-right: 10px;
+  margin: 10px;
 }
