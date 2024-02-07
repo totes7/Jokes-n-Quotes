@@ -52,8 +52,8 @@ This project is a simple web dashboard that allows users to generate jokes and I
 
 ## APIs
 
-- JokeAPI: [Link to JokeAPI Documentation](https://v2.jokeapi.dev/)
-- Zen Quotes API: [Link to Zen Quotes API](https://docs.zenquotes.io/zenquotes-documentation/)
+- Jokes API: [Link to JokeAPI Documentation](https://v2.jokeapi.dev/)
+- Quotes API: [Link to Zen Quotes API](https://forum.freecodecamp.org/t/free-api-inspirational-quotes-json-with-code-examples/311373)
 
 ## Contribution
 
