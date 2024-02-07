@@ -60,7 +60,7 @@ This project is a simple web dashboard that allows users to generate jokes and I
 1. @totes7 Antonio Manno.
 2. @dijahmohammed Khadeejat Mohammed
 3. @Biodunijelu   Abiodun Ijelu.
-4. @Fatma   Fatma.
+4. @Dinazoor   Fatma Oymak.
 
 ## Issues and Bugs
 If you encounter any issues or bugs, please [create an issue](https://github.com/totes7/Project-1-name-to-be-decided-/issues) on the GitHub repository.
