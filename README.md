@@ -22,15 +22,20 @@ This project is a simple web dashboard that allows users to generate jokes and I
 
 ## Screenshots
 
+* Here is a screenshot of the landing page, with the jokes and quotes counter showing and updating at all time.
+
+![Landing Page](./assets/images/screenshot-1.png)
+
+
 * Here is a screenshot of the webpage displaying a joke.
 * The API response is displayed in the main section of the page.
 
-![Joke](./assets/images/screenshot-1.png)
+![Joke](./assets/images/screenshot-2.png)
 
 * Here is a screenshot of the webpage displaying a quote.
 * The API response is displayed in a modal.
 
-![Quote](./assets/images/screenshot-2.png)
+![Quote](./assets/images/screenshot-3.png)
 
 
 ## Technologies
