@@ -53,7 +53,7 @@ h1 {
     /* Adjustments for small screens */
     .navbar .navbar-brand {
         font-size: 24px;
-        width:fit-content;
+        width:50%;
         justify-content: center;
     }
 
