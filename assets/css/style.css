@@ -1,6 +1,7 @@
 /* General */
 
 body {
+  min-height: vh100;
   font-family: monospace;
   background-color: azure;
   margin: 0;
@@ -89,6 +90,7 @@ a {
 footer {
   width: 100%;
   height: 80px;
+  margin-top: 70px;
   background-color: #06afbb;
   text-align: center;
   padding: 20px;
