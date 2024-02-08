@@ -37,6 +37,10 @@ This project is a simple web dashboard that allows users to generate jokes and I
 
 ![Quote](./assets/images/screenshot-3.png)
 
+* At the bottom of the page the footer contains links to the APIs documentations.
+
+![Footer](./assets/images/screenshot-4.png)
+
 
 ## Technologies
 

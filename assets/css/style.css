@@ -3,6 +3,7 @@
 body {
   font-family: monospace;
   background-color: azure;
+  margin: 0;
 }
 
 h1 {
@@ -22,13 +23,13 @@ a {
 }
 
 #main {
-  margin-top: 30px;
+  margin: 30px 0;
 }
 
 /* Navbar */
 
 .navbar {
-    background-color: rgb(6, 175, 187);
+    background-color: #06afbb;
 }
 
 .navbar-brand {
@@ -81,4 +82,34 @@ a {
   height: 150px;
   border-radius: 50%;
   margin: 10px;
+}
+
+/* Footer */
+
+footer {
+  width: 100%;
+  height: 80px;
+  background-color: #06afbb;
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+/* Media queries for footer */
+
+@media only screen and (max-width: 900px) {
+  footer {
+    font-size: 16px;
+    padding: 25px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  footer {
+    font-size: 12px;
+  }
 }

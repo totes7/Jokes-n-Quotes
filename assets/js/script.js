@@ -87,7 +87,7 @@ function updateQuotesCount() {
 
 // Display counters
 let counterDisplay = $("<div>").addClass("row");
-counterDisplay.css({"display": "block", "background-color": "white", "margin": "5px", "border": "1px solid #ccc", "padding": "10px", "border-radius": "8px", "text-align": "center"});
+counterDisplay.css({"display": "block", "background-color": "khaki", "margin": "5px", "border": "1px solid #ccc", "padding": "10px", "border-radius": "8px", "text-align": "center"});
 $('#main').prepend(counterDisplay);
 
 function displayCounters() {
@@ -96,7 +96,7 @@ function displayCounters() {
       "JokesCount"
     )} times and Quotes ${localStorage.getItem(
       "QuotesCount"
-    )} times. What will you choose?</h3>`
+    )} times.</h3>\n<h4>What will you choose?</h4>`
   );
 }
 
